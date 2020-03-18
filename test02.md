@@ -13,6 +13,11 @@ $$
 $$
 f'(x)=\lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}
 $$
->以上為導函數基本推導公式<br/>
+>以上為導函數基本推導公式，但求導函數時有個困難點在於，由於$\Delta x$為分母，在帶入$\Delta x \to 0$之前，必須轉換掉或讓其不影響結果。<br/>
 
-若$y=f(x)=x^n$，導函數$f'(x)=\frac{\partial y}{\partial x}=nx^{n-1}$
+若$y=f(x)=x^n$，導函數$f'(x)=\frac{\partial y}{\partial x}=nx^{n-1}$<br/>
+
+---
+# 導數可視為變化率
+斜率$m=\frac{\partial y}{\partial x}$<br/>
+速度$v=\frac{\partial s}{\partial t}$<br/>

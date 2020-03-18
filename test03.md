@@ -1,3 +1,8 @@
-# 導數可視為變化率
-斜率$m=\frac{\partial y}{\partial x}$<br/>
-速度$v=\frac{\partial s}{\partial t}$<br/>
+# 連續性
+給定$y=f(x), x=x_0$<br/>
+* 定義一：若左極限等於右極限等於$f(x_0)$<br/>
+$$
+\lim_{\Delta x \to 0^-}f(x_0)=\lim_{\Delta x \to 0^+}f(x_0)=f(x_0)
+$$
+則$f(x_0)$為連續。
+* 定義二：若$f'(x_0)$可計算，則$f(x_0)$為連續。
