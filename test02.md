@@ -12,4 +12,6 @@ $$
 $$
 f'(x)=\lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}
 $$
->以上為導函數基本推導公式
+>以上為導函數基本推導公式<br/>
+
+若$y=f(x)=x^n$，導函數$f'(x)=\frac{\partial y}{\partial x}=nx^{n-1}$
